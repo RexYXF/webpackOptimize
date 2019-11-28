@@ -1,0 +1,9 @@
+{
+  "presets": ["@babel/env"],
+  //支持更高级的es6的语法
+  "plugins": [
+    "@babel/plugin-proposal-class-properties",
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-syntax-dynamic-import"
+  ]
+}
